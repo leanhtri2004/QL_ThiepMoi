@@ -168,7 +168,7 @@ section {
 
 .heroSection {
   display: grid;
-  grid-template-columns: minmax(260px, 390px) minmax(0, 1fr);
+  grid-template-columns: minmax(300px, 500px) minmax(0, 1fr);
   align-items: center;
   gap: clamp(34px, 8%, 90px);
   min-height: calc(100svh - 96px);
@@ -178,7 +178,7 @@ section {
 .heroMedia {
   position: relative;
   justify-self: center;
-  width: min(100%, 380px);
+  width: min(100%, 470px);
   animation: photoFloat 5.8s ease-in-out infinite;
 }
 
@@ -198,8 +198,9 @@ section {
 .heroMedia img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #ffffff;
   border: 8px solid #ffffff;
   border-radius: 32px;
   box-shadow: var(--shadow);
@@ -908,7 +909,7 @@ footer button {
   }
 
   .heroMedia {
-    width: min(100%, 315px);
+    width: min(100%, 360px);
   }
 
   .messageSection,
