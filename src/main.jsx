@@ -32,7 +32,7 @@ const eventInfo = [
   {
     icon: MapPin,
     label: 'Địa điểm',
-    title: 'Hội trường Toà G 120 Hoàng Minh Thảo',
+    title: 'Hội trường tầng 4, Toà nhà 03 Quang Trung',
     detail: 'Đại học Duy Tân, Đà Nẵng',
   },
 ];
