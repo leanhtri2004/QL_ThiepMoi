@@ -20,7 +20,7 @@ const eventInfo = [
   {
     icon: CalendarDays,
     label: 'Ngày',
-    title: 'Thứ Ba, 16/09',
+    title: 'Thứ Ba, 16/06',
     detail: 'Một buổi sáng dành cho niềm vui và lời tri ân.',
   },
   {
