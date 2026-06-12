@@ -12,7 +12,7 @@ import {
   X,
 } from 'lucide-react';
 import busyPhoto from './img/H1.jpg';
-import confirmPhoto from './img/H2.jpg';
+import confirmPhoto from './img/H1.jpg';
 import mainPhoto from './img/H3.jpg';
 import './styles.css';
 
@@ -178,6 +178,7 @@ function App() {
           {reply === 'yes' && (
             <div className="confirmReveal" aria-live="polite">
               <img src={confirmPhoto} alt="Meme xác nhận tham gia" />
+              <strong>Cảm ơn Nhoaaa!!!!</strong>
             </div>
           )}
           {reply === 'no' && (
